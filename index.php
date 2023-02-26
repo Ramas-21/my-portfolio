@@ -7,6 +7,9 @@
     <title>my portfolio</title>
 </head>
 <body>
+    <header class="header">
+        <a href="#home">Lawrence</a>
+    </header>
     
 </body>
 </html>
