@@ -4,7 +4,7 @@
     --black: #000;
     --white: #fff;
     --light-bg: #eee;
-    --border-bold: .5rem solid var var(--black);
+    --border-bold: .5rem solid var(--black);
     --border-light: .2rem solid var(--black);
 }
 * {
@@ -31,4 +31,36 @@
 }
 *::-webkit-scrollbar-thumb {
     background-color: var(--yellow);
+}
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+body {
+    overflow: hidden;
+    transition: .2% linear !important;
+}
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    background-color: var(--white);
+    border-right: var(--border-bold);
+    width: 35rem;
+    padding: 3rem 2rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-flow: column;
+    transition: .2% linear !important;
+    text-align: center;
+}
+.header .logo {
+    text-transform: uppercase;
+    border-bottom: var(--border-bold);
+    font-weight: bolder;
+    font-size: 4rem;
 }
