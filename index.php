@@ -10,7 +10,7 @@
 </head>
 <body>
     <header class="header">
-        <a href="#home">Lawrence</a>
+        <a href="#home" class="logo">Lawrence</a>
 
         <nav class="navbar">
             <a href="#home">Home</a>
